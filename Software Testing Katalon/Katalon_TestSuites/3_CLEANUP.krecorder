@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>3_CLEANUP</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Remove User Accounts</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://csunix.mohawkcollege.ca/tooltime/comp10066/A3/adminuser.php<datalist><option>https://csunix.mohawkcollege.ca/tooltime/comp10066/A3/adminuser.php</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//td[@id='admin12345']/a/img<datalist><option>xpath=//td[@id='admin12345']/a/img</option><option>xpath=//tr[67]/td/a/img</option><option>css=#admin12345 > a > img</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>link=here<datalist><option>link=here</option><option>xpath=//a[contains(text(),'here')]</option><option>xpath=//div[@id='body']/div/p/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Members Administration'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='COMP 10066 - Assignment#2 - Katalon/Selenium Automation Testing'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='User ID'])[1]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='auto generated'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='here']/parent::*</option><option>xpath=//a[contains(@href, '/tooltime/comp10066/A3/adminuser.php?act=deleteyes&username=admin12345')]</option><option>xpath=//a</option><option>css=a</option></datalist></td><td></td></tr>
+</tbody></table>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="">Clear Website Data</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://csunix.mohawkcollege.ca/tooltime/comp10066/A3/adminuser.php<datalist><option>https://csunix.mohawkcollege.ca/tooltime/comp10066/A3/adminuser.php</option></datalist></td><td></td></tr>
+<tr><td>click</td><td>xpath=//li[4]/a<datalist><option>link=Logout</option><option>xpath=//a[contains(text(),'Logout')]</option><option>xpath=//div[@id='body']/div[2]/ul[2]/li[4]/a</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='FAQ'])[1]/following::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Directory'])[1]/following::a[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Admin'])[3]/preceding::a[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='User Admin'])[1]/preceding::a[1]</option><option>xpath=//*/text()[normalize-space(.)='Logout']/parent::*</option><option>xpath=//a[contains(@href, 'logout.php')]</option><option>xpath=//li[4]/a</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://csunix.mohawkcollege.ca/tooltime/comp10066/A3/login.php<datalist><option>https://csunix.mohawkcollege.ca/tooltime/comp10066/A3/login.php</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>id=username<datalist><option>id=username</option><option>name=username</option><option>xpath=//input[@id='username']</option><option>xpath=//div[@id='body']/div/form/table/tbody/tr[2]/td[2]/input</option><option>xpath=//input</option><option>css=#username</option></datalist></td><td>admin</td></tr>
+<tr><td>type</td><td>name=password<datalist><option>name=password</option><option>xpath=//input[@name='password']</option><option>xpath=//div[@id='body']/div/form/table/tbody/tr[3]/td[2]/input</option><option>xpath=//tr[3]/td[2]/input</option><option>css=input[name="password"]</option></datalist></td><td>adminp6ss</td></tr>
+<tr><td>click</td><td>id=body<datalist><option>id=body</option><option>xpath=//div[@id='body']</option><option>xpath=//div[@id='pleft']/div[2]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='COMP 10066 - Assignment#2 - Katalon/Selenium Automation Testing'])[1]/following::div[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='User Authorization Testing'])[1]/following::div[1]</option><option>xpath=//div/div/div/div[2]</option><option>css=#body</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>
