@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sandy and Leslie's apartment</title>
+    <!--Author: Harsh kumudgiri Goswami: 000894310-->
+    <link rel="stylesheet" href="apartment_layout.css">
+    <link rel="stylesheet" href="mobile.css">
+    </style>
+</head>
+
+<body class="responsive">
+    <header>
+        <h1>
+            Sandy and Leslie's apartment
+        </h1>
+        <p>
+            click room for the detailed view
+        </p>
+        <img src="images/apartmentfloorplan.jpg" alt="image layover" usemap="#map">
+    </header>
+    <map name="map">
+        <area shape="rect" coords="39,96,184,268" href="bedroom.html" alt="bedroom area" title="bedroom">
+        <area shape="rect" coords="194,100,341,286" href="Livingroom.html" alt="livingroom space" title="livingroom">
+        <area shape="rect" coords="185,285,289,391" href="kitchen.html" alt="kitchen area" title="kitchen">
+        <area shape="circle" coords="342,343,60" href="diningroom.html" alt="dining room" title="dining room">
+        <area shape="poly" coords="385,103,557,100,584,311,495,314,491,240,391,243" href="bedroom.html"
+            alt="bedroom area" title="bedroom">
+    </map>
+    <nav>
+        <ul>
+            <li><a href="apartment.html">Apartment</a></li>
+            <li>|</li>
+            <li><a href="bedroom.html">bedroom1</a></li>
+            <li>|</li>
+            <li><a href="bedroom.html">bedroom2</a></li>
+            <li>|</li>
+            <li><a href="diningroom.html">diningroom</a></li>
+            <li>|</li>
+            <li><a href="kitchen.html">kitchenroom</a></li>
+            <li>|</li>
+            <li><a href="Livingroom.html">livingroom</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="containeri">
+            <h2>
+                Welcome Message
+            </h2>
+
+            <audio src="images/apartment.mp3" controls>
+                Your browser is not compliant
+            </audio>
+            <br>
+            <caption>
+                Transcript: Helloo. Welcome to our apartment. you'll really enjoy living here. The rooms are spacious
+                and the apartment building amenities are fantastic. We look forward to hearing from you!
+            </caption>
+
+            <h2>
+                Survey
+            </h2>
+            <form action="https://csunix.mohawkcollege.ca/tooltime/showit.pl" method="post">
+                <legend>
+                    How did you find out about this apartment?check any thing apply:
+                </legend>
+                <input type="checkbox" name="Searchbox" value="websearch" id="searchbox">
+                <label for="searchbox">
+                    web search
+                </label>
+                <input type="checkbox" name="buddy" value="Friend" id="buddy">
+                <label for="buddy">
+                    Friend
+                </label>
+                <input type="checkbox" name="newscoverage" value="newspaper" id="newscoverage">
+                <label for="newscoverage">
+                    newspaper
+                </label>
+                <br>
+                <input type="submit" value="submit">
+                <input type="reset" value="reset">
+            </form>
+        </div>
+        <div class="containerii">
+            <h2>
+                Apartment Services:
+            </h2>
+            <table border="1">
+                <thead>
+                    <th>
+                        Service
+                        </td>
+                    <th>
+                        Day/hours
+                    </th>
+                </thead>
+                <tr>
+                    <td>
+                        Gym
+                    </td>
+                    <td rowspan="2">
+                        Monday-friday 6 am-10 pm<br>
+                        saturday 8 am-5 pm<br>
+                        Sunday 8am- 5pm<br>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        pool
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Laundry
+                    </td>
+                    <td>
+                        24/7
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="why">
+                        please do not allow the people you don't know to use this facilities.
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="containeriii">
+            <h2>
+                Location
+            </h2>
+            <img src="images/location.png" alt="map/location">
+        </div>
+    </div>
+
+
+    <h2 class="home">
+        Gallery
+    </h2>
+    <section class="flex">
+        <div>
+            <h3>
+                Balcony
+            </h3>
+            <img src="images/thumbnails/balcony_sm.jpg" alt="image of balcony">
+        </div>
+
+        <div>
+            <h3>
+                Bathroom
+            </h3>
+            <img src="images/thumbnails/bathroom_sm.jpg" alt="image of Bathroom">
+        </div>
+
+        <div>
+            <h3>
+                Bedroom
+            </h3>
+            <img src="images/thumbnails/bedroom_sm.jpg" alt="image of bedroom">
+        </div>
+
+        <div>
+            <h3>
+                Dining room
+            </h3>
+            <img src="images/thumbnails/diningroom_sm.jpg" alt="image of dining room">
+        </div>
+
+        <div>
+            <h3>
+                Kitchen
+            </h3>
+            <img src="images/thumbnails/kitchen_sm.jpg" alt="image of kitchen">
+        </div>
+
+        <div>
+            <h3>
+                Living room
+            </h3>
+            <img src="images/thumbnails/livingroom_sm.jpg" alt="image of livingroom">
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            For more information contact<a href="sandyandleslie@example.com"> mail to:sandyandleslie@example.com</a> or
+            <a href="tel:(905)-555-1234">(905)-555-1234</a>
+
+        <p>&copy Sandy And Leslie 2022</p>
+        </p>
+    </footer>
+</body>
+
+</html>

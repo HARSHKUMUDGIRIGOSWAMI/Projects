@@ -1,0 +1,130 @@
+/*Author: Harsh kumudgri Goswami:00894310 */
+.container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+
+}
+
+.containeri {
+    grid-column: 1;
+    padding: 1em;
+}
+
+.containerii {
+    grid-column: 2;
+    padding: 1em;
+}
+
+.containeriii {
+    grid-column: 3;
+    padding: 1em;
+}
+
+h3 {
+    background-color: orangered;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 60px;
+
+}
+
+
+.flex div {
+    margin: 30px;
+}
+
+.home {
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+
+
+.use {
+    background-color: aquamarine;
+}
+.flex h1 {
+    color: white;
+    background-color: #fba002;
+    text-align: center;
+}
+h2 {
+    background-color: yellow;
+    text-align: left;
+}
+
+nav ul {
+    display: inline-flex;
+
+
+
+    padding-left: 410px;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    padding-left: 20px;
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:599px) {
+    nav ul {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:600px) and (max-width:899px) {
+    nav ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    nav ul li {
+        margin: 0px 5px;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    nav ul {
+        justify-content: space-between;
+    }
+}
+
+.Bedroom{
+    text-align: center;
+}
+
+h2 {
+    background-color: yellow;
+}
+
+.Beda {
+    text-align: left;
+}
+th {
+    background-color: gray;
+}
+.mage{text-align: center;}
