@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)file:///C:/Users/gova9/OneDrive/Desktop/exam%20practice.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+    <!--harsh kumudgiri goswami: 000894310-->
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Practice</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid black;
+
+        }
+
+        table {
+            border-collapse: collapse;
+
+            width: 100%;
+        }
+
+        th {
+            height: 70px;
+        }
+
+        tr:hover {
+            background-color: blueviolet;
+        }
+
+        tr:nth-child(even) {
+            background-color:
+                blue;
+        }
+
+        .Reserve {
+            background: url("lab5images/dust.jpg");
+            text-align: center;
+            font-weight: bold;
+        }
+
+        nav ul {
+            display: flex;
+            padding-inline-start: 0px;
+            padding: 15px;
+        }
+
+        nav ul li {
+            list-style: none;
+            text-align: center;
+            background-color: mediumslateblue;
+            padding: 35px;
+            border: 2px solid black;
+            border-bottom: none;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        @media only screen and (max-width:599px) {
+            nav ul {
+                flex-direction: column;
+                width: 100%;
+            }
+        }
+
+        @media only screen and (min-width:600px) and (max-width:899px) {
+            nav ul {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            nav ul li {
+                margin: 0px 5px;
+            }
+        }
+
+        @media only screen and (min-width:900px) {
+            nav ul {
+                justify-content: space-between;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <h2>Add a border to a table</h2>
+    <table>
+        <tbody>
+            <tr>
+
+                <th>firstname</th>
+                <th>lastname</th>
+            </tr>
+
+            <tr>
+                <td>peter</td>
+                <td>griffin</td>
+            </tr>
+            <tr>
+                <td>lois</td>
+
+                <td>griffin</td>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <tbody>
+            <tr>
+                <th>firstname</th>
+                <th>lastname</th>
+
+                <th>savings</th>
+            </tr>
+            <tr>
+                <td>peter</td>
+
+                <td>griffin</td>
+                <td>$100</td>
+            </tr>
+
+            <tr>
+                <td>lois</td>
+
+                <td>griffin</td>
+
+                <td>$150</td>
+            </tr>
+            <tr>
+                <td>joe</td>
+
+                <td>swanson</td>
+
+                <td>$300</td>
+            </tr>
+            <tr>
+                <td>cleveland</td>
+                <td>brown</td>
+
+                <td>$250</td>
+            </tr>
+        </tbody>
+    </table><br>
+    <table id="harsh">
+        <thead>
+            <tr>
+
+                <th>Day</th>
+
+                <th>7am-9am</th>
+                <th>9am-11am</th>
+
+                <th>11am-12pm</th>
+
+                <th>12pm-2pm</th>
+                <th>2pm-4pm</th>
+
+                <th>6pm-8pm</th>
+
+                <th>8pm-10pm</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+
+                <td class="begi">Beginner Cycling</td>
+
+                <td class="hike">Hiking</td>
+
+                <td colspan="5" class="camp">Camping</td>
+
+
+            </tr>
+
+            <tr>
+
+                <td>Tuesday
+
+                </td>
+
+                <td colspan="7" class="Reserve">Reserved for group</td>
+            </tr>
+
+            <tr>
+                <td>wednesday</td>
+
+                <td rowspan="2" class="long">Long Distance cycling part 1</td>
+
+                <td></td>
+
+                <td class="begi">Beginner cycling</td>
+
+                <td rowspan="2" class="camp">Camping in Asia</td>
+                <td rowspan="2" class="long">Long Distance cycling part 2</td>
+                <td rowspan="3" class="hike">Hikinh</td>
+
+            </tr>
+            <tr>
+
+                <td>Thursday</td>
+                <td class="camp">Camping</td>
+
+            </tr>
+            <tr>
+                <td>friday&gt;</td>
+
+                <td rowspan="4" class="camp">Camping in Europe</td>
+                <td colspan="2" class="begi">beginner cycling</td>
+            </tr>
+            <tr>
+
+                <td>saturday</td>
+
+                <td colspan="3" rowspan="2" class="hike">Hiking</td>
+                <td class="begi">Beginner Cycling</td>
+
+                <td rowspan="2" colspan="2" class="long">Long distance cycling part 1 and 2</td>
+            </tr>
+            <tr>
+                <td>sunday</td>
+            </tr>
+            <tr>
+                <td>Holidays</td>
+
+                <td colspan="2" class="long">long distance cycling</td>
+
+                <td colspan="4" class="Reserve">No seminars</td>
+            </tr>
+        </tbody>
+
+
+    </table>
+
+
+
+    <nav>
+
+        <ul>
+            <li><a href="file:///C:/Users/gova9/OneDrive/Desktop/exam%20practice.html#">About Us</a></li>
+
+
+            <li><a href="file:///C:/Users/gova9/OneDrive/Desktop/exam%20practice.html#">Travel</a></li>
+
+            <li><a href="file:///C:/Users/gova9/OneDrive/Desktop/exam%20practice.html#">Photoes</a></li>
+
+            <li><a href="file:///C:/Users/gova9/OneDrive/Desktop/exam%20practice.html#">shop</a></li>
+
+            <li><a href="file:///C:/Users/gova9/OneDrive/Desktop/exam%20practice.html#">Reviews</a></li>
+
+            <li><a href="file:///C:/Users/gova9/OneDrive/Desktop/exam%20practice.html#">Seminars</a></li>
+            <li><a href="file:///C:/Users/gova9/OneDrive/Desktop/exam%20practice.html#">events</a></li>
+
+
+        </ul>
+    </nav>
+
+
+    <form action="https://csunix.mohawkcollege.ca/tooltime/showit.pl" method="post">
+
+        <input type="hidden" name="formname" value="Harsh Trip Review">
+        <fieldset id="first">
+            <legend>About you (optional)</legend>
+            <lable for="trip time">I usually prefer to trip this time of year (select all that apply):</lable>
+            <div>
+                <select name="trip season" id="trip season" size=" 4" multiple="">
+                    <option value="winter">winter
+                    </option>
+                    <option value="spring">spring</option>
+                    <option value="summer">summer</option>
+                    <option value="fall">fall</option>
+                </select>
+            </div>
+            <div id="redbull">
+                <div>
+                    <lable for="firstname">firstname</lable>
+                    <input type="text" name="firstname" id="firstname" maxlength="20">
+                </div>
+
+                <div>
+                    <lable for="lastname">lastname</lable>
+                    <input type="text" name="lastname" id="firstname" maxlength="20">
+                </div>
+                <div>
+                    <lable for="telnumber">firstname</lable>
+                    <input type="tel" name="telnumber" id="telnumber" placeholder="123-456-7890" maxlength="20">
+                </div>
+                <div>
+                    <lable for="emailaddress">emailaddress</lable>
+                    <input type="email" name="mail" id="mail" placeholder="name@example.com" maxlength="20">
+                </div>
+            </div>
+        </fieldset>
+        <input type="submit" value="SEND REVIEW" class="disable">
+        <input type="reset" value="CANCEL" class="disable">
+        </form>
+
+
+
+
+
+</body></html>
